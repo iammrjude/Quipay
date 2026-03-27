@@ -46,6 +46,8 @@ pub enum QuipayError {
     NoSigners = 1036,
     WithdrawalCooldown = 1037,
     GracePeriodActive = 1038,
+    NoDrainPending = 1039,
+    DrainTimelockActive = 1040,
     Custom = 1999,
 }
 
